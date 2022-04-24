@@ -1,0 +1,126 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav-1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+.line-container {
+    padding: 20px;
+    float: left;
+}
+
+
+/*side-nav start*/
+
+.sidenav {
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    z-index: 99;
+    overflow-x: hidden;
+}
+
+.sidenav ul :hover {
+    background-color: #73b711;
+}
+
+.sidenav ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.sidenav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*side-nav End*/
+
+
+/*nav-2 start*/
+
+.nav-2 {
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    color: white;
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.nav-2 ul {
+    list-style-type: none;
+}
+
+.nav-2 ul a li {
+    float: left;
+    height: 50px;
+    margin: 0px 25px;
+    padding: 5px;
+}
+
+.nav-2 ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-2 ul :hover {
+    background-color: #73b711;
+}
+
+.active {
+    background-color: #73b711;
+}
+
+
+/*nav-2 End*/
+
+
+/*uor team start*/
+
+.our-team {
+    width: 100%;
+    height: auto;
+}
+
+.our-team h2 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+
+/*uor team End*/
+
+
+/*reason start*/
+
+.reason {
+    width: 100%;
+    height: auto;
+}
+
+.reason ol li {
+    margin-top: 30px;
+}
+
+
+/*reason End*/
