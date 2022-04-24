@@ -1,0 +1,20 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.news {
+    width: 100%;
+    height: auto;
+}
+
+.line {
+    width: 70%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.drive {
+    width: 100%;
+    height: auto;
+}

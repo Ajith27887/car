@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/Service.css">
+    <link rel="stylesheet" href="css/About-us.css">
+    <link rel="stylesheet" href="css/News.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <!--Media query-->
+    <link rel="stylesheet" href="css/media-query.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--Google Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--FontAswome 4-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!--side-nav start-->
+    <section class="sidenav" id="mysidenav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <span class=" float-end "><i class="fa fa-close"  onclick="navClose()"  style="font-size:24px; cursor: pointer;"></i></span>
+                </div>
+                <div class="col-12">
+                    <ul>
+                        <a href="index.html">
+                            <li>
+                                Home
+                            </li>
+                        </a>
+
+                        <a href="About-us.html">
+                            <li>About Us</li>
+                        </a>
+
+
+                        <a href="Service.html">
+                            <li>Services</li>
+                        </a>
+                        </i>
+
+                        <a href="News.html">
+                            <li>News</li>
+                        </a>
+
+
+                        <a href="Contact.html">
+                            <li>Contact</li>
+                        </a>
+
+                    </ul>
+                </div>
+    </section>
+    <!--side-nav end-->
+
+
+    <!--background image start-->
+    <div class="bg-image" style="background-image: url('car2.jpg'); background-size: cover; width: 100%; height: 150px;">
+
+    </div>
+    <!--background image end-->
+    <!--nav -1-->
+    <section class="nav-1 p-4 p-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-block col-md-10">
+                    <img src="images/logo-inverse-164x61.png">
+                </div>
+                <div class=" mt-md-3 col-md-12 col-lg-2">
+                    <p>4578 MARMORA ROAD, GLASGOW D04 89GR 800 2345-6789</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--nav 2-->
+    <section class="nav-2  bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="  d-none d-md-inline-block col-md-12">
+                    <ul>
+
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+
+                        <a href="About-us.html">
+                            <li>About Us</li>
+                        </a>
+
+                        <a href="Service.html">
+                            <li>Services</li>
+                        </a>
+
+
+
+                        <a href="News.html">
+                            <li>News</li>
+                        </a>
+
+
+                        <a href="Contact.html">
+                            <li class="active">Contact</li>
+                        </a>
+
+                    </ul>
+                </div>
+                <div class=" d-md-none line-container col-12 justify-content-center d-block" onclick="navOpen()" id="line-container">
+                    <div class="line1" style="cursor: pointer;" onclick="navOpen()"></div>
+                    <div class="line2" style="cursor: pointer;" onclick="navOpen()"></div>
+                    <div class="line3" style="cursor: pointer;" onclick="navOpen()"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--nav 2 end-->
+
+    <!--contact start-->
+    <section class="contact p-sm-5 p-4" style="background-color: #73b711;">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12">
+                    <a href="#">800 6549-2460</a>
+                    <p>
+                        Map data ©2022 AfriGIS (Pty) Ltd, Google, Mapa GISrael 800 2345-6789 4578 MARMORA ROAD, GLASGOW D04 89GR Feel free to contact us using the phone above or visit our office personally if you have any issue with your vehicle.
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact End-->
+
+    <!--field start-->
+    <section class="field">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-7 col-12 p-sm-5 p-4" style="background-color:  #ededed; font-weight: 700;">
+                    <h2>CONTACT US WITH</h2>
+                    <h2 style="color: var(--green); font-weight: 700;">ANY QUESTIONS</h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row mt-4">
+                                <input type="text" id="id1" required class="form-control error" placeholder="Your Name" autofocus>
+                            </div>
+                            <div id="demo"></div>
+                            <div class="row mt-4">
+                                <input type="tel" id="id2" inputmode="tel" name="phone" required class="form-control error" placeholder="phone" required>
+                            </div>
+                            <div id="demo2"></div>
+                            <div class="row mt-4">
+                                <input type="email" inputmode="email" id="id3" required class="form-control error" placeholder="E-Mail">
+                            </div>
+                            <div id="demo3"></div>
+                        </div>
+                        <div class="col-lg-6 col-12 mt-4 ">
+                            <textarea class="form-control " id="id4" placeholder="Message (Optional)"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-4">
+                            <input type="submit" onclick="myFeild(),myFeild2(),myFeild3()" placeholder="Submit" class="form-control" style="color: white; background-color: #73b711;">
+                        </div>
+
+                        <div class="col-4">
+                            <button type="button" class="form-control " onclick="dNone(),dNone2(),dNone3(),dNone4()" style=" color: white; background-color: #73b711; ">Reset</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-12 p-sm-5 p-4 " style="background-color: #353535; ">
+                    <h2 style="color: white; ">FIND US ON</h2>
+                    <h2 style="color: var(--green); ">SOCIAL SITES</h2>
+                    <h4 style="color: white; ">NAM ALIQUAM PRETIUM FEUGIAT DUIS SEM EST VIVERRA</h4>
+                    <p style="color: white; ">Sed do eiusmod tempor incididu enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. In reprehenderit in voluptate velit esse cillum dolore. Lorem ipsum dolor.</p>
+                    <div class="row ">
+                        <div class="col-2 ">
+                            <a href="# "><i class="fa fa-facebook-square "  style="font-size:36px; color: white; "></i></a>
+                        </div>
+                        <div class="col-2 ">
+                            <a href="# "><i class="fa fa-instagram " style="font-size:36px; color: white; "></i></a>
+                        </div>
+                        <div class="col-4 ">
+                            <a href="# "><i class="fa fa-twitter " style="font-size:36px; color: white; "></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--field End-->
+
+    <!--Footer start-->
+    <footer class=" bg-dark text-white p-3 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 text-center ">
+                    <p>© 2022 Car Repair. <a href="# ">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--footer end-->
+
+
+
+    <script src="js/all.js "></script>
+</body>
+
+</html>

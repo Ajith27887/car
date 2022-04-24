@@ -1,0 +1,40 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.field {
+    width: 100%;
+    height: auto;
+}
+
+.field input[type=text] {
+    height: 60px;
+}
+
+.field input[type=email] {
+    height: 60px;
+}
+
+.field input[type=tel] {
+    height: 60px;
+}
+
+textarea {
+    height: 230px;
+}
+
+#demo {
+    color: red;
+    margin-top: 5px;
+}
+
+#demo2 {
+    color: red;
+    margin-top: 5px;
+}
+
+#demo3 {
+    color: red;
+    margin-top: 5px;
+}

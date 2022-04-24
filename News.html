@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/Service.css">
+    <link rel="stylesheet" href="css/About-us.css">
+    <link rel="stylesheet" href="css/News.css">
+    <!--Media query-->
+    <link rel="stylesheet" href="css/media-query.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--Google Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--FontAswome 4-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!--side-nav start-->
+    <section class="sidenav" id="mysidenav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <span class=" float-end "><i class="fa fa-close"  onclick="navClose()"  style="font-size:24px; cursor: pointer;"></i></span>
+                </div>
+                <div class="col-12">
+                    <ul>
+                        <a href="index.html">
+                            <li>
+                                Home
+                            </li>
+                        </a>
+
+                        <a href="About-us.html">
+                            <li>About Us</li>
+                        </a>
+
+
+                        <a href="Service.html">
+                            <li>Services</li>
+                        </a>
+                        </i>
+
+                        <a href="News.html">
+                            <li>News</li>
+                        </a>
+
+
+                        <a href="Contact.html">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+    </section>
+    <!--side-nav end-->
+
+    <!--background image start-->
+    <div class="bg-image" style="background-image: url('car2.jpg'); background-size: cover; width: 100%; height: 150px;">
+
+    </div>
+    <!--background image end-->
+    <!--nav -1-->
+    <section class="nav-1 p-4 p-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-block col-md-10">
+                    <img src="images/logo-inverse-164x61.png">
+                </div>
+                <div class=" mt-md-3 col-md-12 col-lg-2">
+                    <p>4578 MARMORA ROAD, GLASGOW D04 89GR 800 2345-6789</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--nav 2-->
+    <section class="nav-2  bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="  d-none d-md-inline-block col-md-12">
+                    <ul>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+
+                        <a href="About-us.html">
+                            <li>About Us</li>
+                        </a>
+
+                        <a href="Service.html">
+                            <li>Services</li>
+                        </a>
+
+
+
+                        <a href="News.html">
+                            <li class="active">News</li>
+                        </a>
+
+
+                        <a href="Contact.html">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class=" d-md-none line-container col-12 justify-content-center d-block" onclick="navOpen()" id="line-container">
+                    <div class="line1" style="cursor: pointer;" onclick="navOpen()"></div>
+                    <div class="line2" style="cursor: pointer;" onclick="navOpen()"></div>
+                    <div class="line3" style="cursor: pointer;" onclick="navOpen()"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--nav 2 end-->
+
+    <!--News start-->
+    <section class="news">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-12 p-5">
+                    <h2>LATEST</h2>
+                    <h2 style="color:var(--green)">NEWS</h2>
+                    <img src="images/news-img-01.jpg" class="img-fluid"><br>
+                    <span><i class="fa fa-calendar mt-3" style="font-size:24px; color: var(--green);"></i></span> <span>November 15, 2019</span><br>
+                    <b>LACINIA FERMENTUM DONEC IN VELIT VEL IPSUM AUCTOR PULVINAR</b>
+                    <p>Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Praesent faucibus rutrum odio at rhoncus.
+                        Pellentesque vitae tortor id neque fermentum pretium. Maecenas ac lacus ut neque rhoncus laoreet sed id tellus.</p>
+
+                    <div class="line">
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 p-5" style="  background: #4a4a4a;">
+                    <h2 style="color:white">POPULAR</h2>
+                    <img class="mt-5 img-fluid" src="images/gargantua-img-01.jpg">
+                    <span class="mt-3" style="color: white;">November 15, 2019</span><br>
+                    <b style="color: var(--green);" class="mt-3">LOREM IPSUM DOLOR SIT AMET</b>
+                    <p style="color: white" class="mt-3">Donec justo tellus, tincidunt vitae pellentesque nec, pharetra a orci. Praesent nunc, egestas eget.</p>
+                    <div class="line" style="color: white;">
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <img class="mt-3 img-fluid" src="images/gargantua-img-02.jpg"><br>
+                            <b style="color: var(--green) ; margin-top: 10px;">DONEC EGET TELLUS NON ERAT</b>
+                            <p style="color: white" class="mt-3">Donec justo tellus, tincidunt vitae pellentesque nec, pharetra a orci. Praesent nunc, egestas eget.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--News start-->
+
+    <!--DriveTrain start-->
+    <section class="drive p-5" style="background-color: var(--green);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <h2 style="color: white">DRIVETRAIN</h2>
+                    <h2 style="color: white">REPAIR</h2>
+                    <img src="images/gargantua-img-04.jpg" class="img-fluid">
+                    <h2 class="mt-3 ">LOREM IPSUM DOLOR SIT AMET</h2>
+                    <p class="mt-3 text-white">Nunc purus nibh; eleifend eget facilisis ac, sagittis non tortor. pharetra a orci. Praesent nunc, egestas ege</p>
+                </div>
+                <div class="col-lg-6 col-12 ">
+                    <h2 style="color: white">DRIVETRAIN</h2>
+                    <h2 style="color: white">REPAIR</h2>
+                    <img src="images/gargantua-img-05.jpg" class="img-fluid">
+                    <h2 class="mt-3 ">DONEC EGET TELLUS NON ERAT</h2>
+                    <p class="mt-3 text-white">Nunc purus nibh; eleifend eget facilisis ac, sagittis non tortor. pharetra a orci. Praesent nunc, egestas ege</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--DriveTrain End-->
+
+    <!--Footer start-->
+    <footer class=" bg-dark text-white p-3 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 text-center ">
+                    <p>© 2022 Car Repair. <a href="# ">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--footer end-->
+
+
+
+    <script src="js/all.js"></script>
+</body>
+
+</html>
